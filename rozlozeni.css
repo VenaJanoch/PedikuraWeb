@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url("../img/Pozadi/preview3.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-color: rgb(224, 255, 12);
+	
+	}
+
+.Obal {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 1%;
+}
+
+.Hlavicka {
+	padding-left: 4%;
+	border-radius: 25px;
+	background-color: rgb(255, 152, 49);
+}
+
+.Telo {
+	border-radius: 25px;
+	margin-top: -20px;
+}
+
+.logo {
+	width: 400px;
+	height: 193px;
+	
+}
+
+.stopy {
+	width: 312px;
+	height: 200px;
+	margin-left: 60%;
+	margin-top: -193px;
+}
+
+.menu{
+	margin-left: 20%;
+	border-color: rgb(221, 111, 0);
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;	
+}
+.obsah{
+	width: 80%;
+	height: 50%;
+	margin-left:20%;
+	margin-top:-250px;
+	background-color: rgb(229, 229, 229);
+	border-bottom-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-color:rgb(221, 111, 0);
+}
+
+.navigace{
+	background-color: rgb(255, 152, 49);
+	width: 20%;
+	height:250px;
+	padding-top:30px;
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+	
+}
+.vypln{
+	height: 270px;
+}
+
+@media (max-width: 400px) {
+.navigace{
+	background-color: rgb(0, 152, 49);
+	width: 20%;
+	height:250px;
+	padding-top:30px;
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+	
+}    
+}

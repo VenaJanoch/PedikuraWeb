@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+
+.odkazyMenu2{
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+hr{
+	color: rgb(221, 111, 0);
+	border-color: rgb(221, 111, 0);
+	width:90%;
+}
+.menu2{
+	list-style-type: none;
+}
+
+.textUvod{
+	font-family:fantasy;
+	font-size: 30px;
+}
+.odkazMenu{
+	font-size: 20px;
+}
+.navbar-custom {
+	background-color: rgb(229, 229, 229);
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;	
+	border-color: rgb(221, 111, 0);
+	padding-left:10%;
+	color: black;
+}
+.tabulkaCenik{
+	margin-left: 15%;
+	width: 70%;
+	font-family: fantasy;;
+	font-size: 25px;
+	color: #0000001231232;
+}
+.tabulkaFotky{
+	margin-left: 8%;
+	width: 70%;
+	font-family: fantasy;
+	font-size: 20px;
+	color: #0000001231232;
+	margin-top: 4%;
+}
+.tabRadek1Ukon{
+	width: 35%;
+	background-color: rgb(115,208,2);
+}
+.tabRadek1Cena{
+	width: 35%;
+	background-color: rgb(115,208,2);
+		
+}
+.tabRadek2Ukon{
+	width: 35%;
+	background-color: rgb(105,197,10);
+	
+}
+.tabRadek2Cena{
+	width: 35%;
+	background-color: rgb(105,197,10);
+}
+.vnitrekObsahu{
+	font-family: fantasy;;
+	font-size: 25px;
+	text-align: justify;
+	width: 90%;
+	margin-left:5%;
+	color: rgb(13,11,12); 
+}
+.seznamObsah{
+	font-family: fantasy;;
+	font-size: 25px;
+	text-align: justify;
+	margin-left: 30%;
+}

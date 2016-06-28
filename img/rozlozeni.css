@@ -1,0 +1,162 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url("../img/Pozadi/preview3.jpg");
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	
+	background-position: center;
+	
+	}
+
+.Obal {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 1%;
+}
+
+.Hlavicka {
+	padding-left: 4%;
+	border-radius: 25px;
+	background-color: rgb(255, 152, 49);
+}
+
+.Telo {
+	border-radius: 25px;
+	margin-top: -20px;
+}
+
+.logo {
+	width: 400px;
+	height: 193px;
+	
+}
+
+.stopy {
+	width: 312px;
+	height: 200px;
+	margin-left: 60%;
+	margin-top: -193px;
+}
+
+.menu{
+	margin-left: 20%;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;	
+	background-color: rgb(229, 229, 229);
+	height:50px;
+	color: black;
+	
+}
+
+.menu button {
+    background-color:  rgb(229, 229, 229);;
+    border: 0;
+    border-color:black;
+    color:black;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu button:hover, .menu button:focus {
+    background-color: rgb(255, 152, 49);
+}
+
+.menu.zobrazit menu {display: block;}
+
+.obsah{
+	width: 80%;
+	height: 50%;
+	margin-left:20%;
+	margin-top:-250px;
+	background-color: rgb(229, 229, 229);
+	border-bottom-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-color:rgb(221, 111, 0);
+}
+
+.navigace{
+	margin-top:20px;
+	background-color: rgb(255, 152, 49);
+	width: 20%;
+	height:250px;
+	padding-top:30px;
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+	
+}
+.vypln{
+	height: 270px;
+}
+
+.TeloSmall{
+	display:none;
+}
+.navigaceSmall{
+	display:none;
+}
+@media screen and (max-width: 480px) {
+    .menu button {
+        display: none;
+    }
+    
+    .menu ul {display: none;}
+}
+
+
+
+@media (max-width: 480px) {
+	.navigaceSmall{
+	display:block;
+	background-color: rgb(229, 229, 229);
+	margin-top:20px;
+	width: 98%;
+	height:370px;
+	padding-top:30px;
+	}
+	
+	.obsah{
+	width: 98%;
+	height: 50%;
+	margin-left:1%;
+	margin-top:1px;
+	background-color: rgb(229, 229, 229);
+	border-bottom-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-color:rgb(221, 111, 0);
+}
+	.Obal {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
+}
+	.Hlavicka {
+	padding-left: 4%;
+	width: 40px;
+	background-color: rgb(255, 152, 49);
+}
+.navigace{
+	display:none;
+	
+}   
+
+.stopy {
+
+	display: none;
+
+	} 
+	
+	.menu{
+	margin-left: 1%;
+	border-color: rgb(221, 111, 0);
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;	
+	
+}
+
+.obrazekUvod{
+	display:none;
+}
+	
+}
