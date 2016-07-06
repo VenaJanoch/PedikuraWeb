@@ -31,6 +31,9 @@ hr{
 	
 	
 }
+.navbar{
+	position: relative; top: 2px;	
+}
 .tabulkaCenik{
 	margin-left: 15%;
 	width: 70%;
