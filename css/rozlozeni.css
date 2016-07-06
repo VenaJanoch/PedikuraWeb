@@ -5,8 +5,7 @@ body {
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-color: rgb(224, 255, 12);
-	
-	}
+}
 
 .Obal {
 	margin-left: 15%;
@@ -28,7 +27,6 @@ body {
 .logo {
 	width: 400px;
 	height: 193px;
-	
 }
 
 .stopy {
@@ -38,132 +36,112 @@ body {
 	margin-top: -193px;
 }
 
-.menu{
+.menu {
 	margin-left: 20%;
-	border-top-left-radius:25px;
-	border-top-right-radius:25px;	
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 	background-color: rgb(229, 229, 229);
-	height:50px;
+	height: 50px;
 	color: black;
+	position: relative; top: 20px;
 	
 }
 
-.menu button {
-    background-color:  rgb(229, 229, 229);;
-    border: 0;
-    border-color:black;
-    color:black;
-    font-size: 30px;
-    cursor: pointer;
-    display: none;
+.menuTlacitko {
+	display: none;
 }
 
-.menu button:hover, .menu button:focus {
-    background-color: rgb(255, 152, 49);
-}
-
-.menu.zobrazit menu {display: block;}
-
-.obsah{
+.obsah {
 	width: 80%;
 	height: 50%;
-	margin-left:20%;
-	margin-top:-250px;
+	margin-left: 20%;
+	margin-top: -250px;
 	background-color: rgb(229, 229, 229);
-	border-bottom-right-radius:25px;
-	border-bottom-left-radius:25px;
-	border-color:rgb(221, 111, 0);
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-color: rgb(221, 111, 0);
 }
 
-.navigace{
-	margin-top:20px;
+.navigace {
+	margin-top: 20px;
 	background-color: rgb(255, 152, 49);
 	width: 20%;
-	height:250px;
-	padding-top:30px;
-	border-top-left-radius:25px;
-	border-bottom-left-radius:25px;
-	
+	height: 250px;
+	padding-top: 30px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
 }
-.vypln{
+
+.vypln {
 	height: 270px;
+	width:
 }
 
-.TeloSmall{
-	display:none;
-}
-.navigaceSmall{
-	display:none;
-}
-@media screen and (max-width: 480px) {
-    .menu button {
-        display: none;
-    }
-    
-    .menu ul {display: none;}
+.TeloSmall {
+	display: none;
 }
 
-@media (min-width: 1600px) {
-    
-    body{
-   	background-attachment: fixed;
-    background-repeat: no-repeat;
-	background-color: rgb(224, 255, 12);
-	background-position: top center;
-    }
-    }
+.navigaceSmall {
+	display: none;
+}
 
-
-@media (max-width: 480px) {
-	.navigaceSmall{
-	display:block;
-	background-color: rgb(229, 229, 229);
-	margin-top:20px;
-	width: 98%;
-	height:370px;
-	padding-top:30px;
+@media ( min-width : 1600px) {
+	body {
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-color: rgb(224, 255, 12);
+		background-position: top center;
 	}
-	
-	.obsah{
+}
+
+@media
+(
+max-width:580px){
+
+.menuTlacitko {
+	display:block;
+	width: 98%;
+	position: relative; top: 20px;
+	margin-left: 1%;
+	background-color: rgb(229, 229, 229);
+	color: black;
+}
+
+.obsah {
 	width: 98%;
 	height: 50%;
-	margin-left:1%;
-	margin-top:1px;
+	margin-left: 1%;
+	margin-top: 1px;
 	background-color: rgb(229, 229, 229);
-	border-bottom-right-radius:25px;
-	border-bottom-left-radius:25px;
-	border-color:rgb(221, 111, 0);
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-color: rgb(221, 111, 0);
 }
-	.Obal {
+
+.Obal {
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-top: 1%;
 }
-	.Hlavicka {
+
+.Hlavicka {
 	width: 400px;
 	background-color: rgb(255, 152, 49);
 }
-.navigace{
-	display:none;
-	
-}   
+
+.navigace {
+	display: none;
+}
 
 .stopy {
-
 	display: none;
-
-	} 
-	
-	.menu{
-	margin-left: 1%;
-	border-color: rgb(221, 111, 0);
-	border-top-left-radius:25px;
-	border-top-right-radius:25px;	
-	
 }
 
-.obrazekUvod{
-	display:none;
+.menu {
+	display: none;
 }
-	
+
+.obrazekUvod {
+	display: none;
+}
 }

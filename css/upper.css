@@ -29,6 +29,7 @@ hr{
 	padding-left:10%;
 	color: black;
 	
+	
 }
 .tabulkaCenik{
 	margin-left: 15%;
@@ -77,5 +78,8 @@ hr{
 	font-size: 17px;
 	text-align: justify;
 	margin-left: 30%;
+}
+.seznamMenu{
+	list-style-type: none;
 }
 
